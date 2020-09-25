@@ -59,6 +59,9 @@ public class CalendarTester {
         ShivanBday.add(Calendar.DAY_OF_YEAR,10000);
         System.out.println("The day of the week is: " + ShivanBday.get(Calendar.DAY_OF_WEEK));
 
+        System.out.println("The new date is: " + ShivanBday.get(Calendar.MONTH) + " / " +
+                ShivanBday.get(Calendar.DATE)+" / " + ShivanBday.get(Calendar.YEAR));
+
 
     }
 
